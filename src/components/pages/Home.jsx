@@ -5,8 +5,9 @@ function Home() {
         Página Inicial
       </h1>
       <p className="text-lg text-gray-700">
-        Bem-vindo ao meu primeiro app com React Router criado em 29 de setembro de 2025!
-      </p>
+        Bem-vindo ao meu primeiro app com React Router criado em 29 de setembro de 2025 em aula da matéria de WebDevelopment sob a orientação do Professor Lucas Sousa!
+      </p> 
+      <br></br>
       <p className="text-lg text-gray-700">
         Meu nome é Marcielle Janguas e sou estudante de engenharia de software!
       </p>
