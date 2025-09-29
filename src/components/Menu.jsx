@@ -14,12 +14,12 @@ function Menu() {
   e um estilo de destaque será aplicado. */}
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-purple-300 p-4">
       {/* Contêiner principal do menu, com um layout flexível */}
       <div className="max-w-4xl mx-auto flex justify-between items-center">
         
         {/* Logo do aplicativo */}
-        <div className="text-white text-xl font-bold">
+        <div className="text-purple-500 text-xl font-bold">
           MeuApp
         </div>
 
@@ -34,8 +34,8 @@ function Menu() {
             className={`px-3 py-2 rounded transition-colors ${
               // Verifica se o link está ativo e aplica estilos diferentes
               isActive('/') 
-                ? 'bg-blue-600 text-white' // Cor de fundo azul se o link estiver ativo
-                : 'text-gray-300 hover:text-white hover:bg-gray-700' // Estilo normal para o link
+                ? 'bg-purple-600 text-white' // Cor de fundo azul se o link estiver ativo
+                : 'text-purple-400 hover:text-white hover:bg-gray-700' // Estilo normal para o link
             }`}
           >
             Home
@@ -47,8 +47,8 @@ function Menu() {
             className={`px-3 py-2 rounded transition-colors ${
               // Verifica se o link está ativo e aplica estilos diferentes
               isActive('/sobre') 
-                ? 'bg-green-600 text-white' // Cor de fundo verde se o link estiver ativo
-                : 'text-gray-300 hover:text-white hover:bg-gray-700' // Estilo normal para o link
+                ? 'bg-purple-600 text-white' // Cor de fundo verde se o link estiver ativo
+                : 'text-purple-400 hover:text-white hover:bg-gray-700' // Estilo normal para o link
             }`}
           >
             Sobre
@@ -61,7 +61,7 @@ function Menu() {
               // Verifica se o link está ativo e aplica estilos diferentes
               isActive('/contato') 
                 ? 'bg-purple-600 text-white' // Cor de fundo roxa se o link estiver ativo
-                : 'text-gray-300 hover:text-white hover:bg-gray-700' // Estilo normal para o link
+                : 'text-purple-400 hover:text-white hover:bg-gray-700' // Estilo normal para o link
             }`}
           >
             Contato
